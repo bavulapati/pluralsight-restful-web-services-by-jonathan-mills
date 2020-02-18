@@ -20,6 +20,7 @@
   "homepage": "https://github.com/bavulapati/pluralsight-restful-web-services-by-jonathan-mills#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongodb": "^3.5.3",
     "nodemon": "^2.0.2"
   },
   "devDependencies": {
