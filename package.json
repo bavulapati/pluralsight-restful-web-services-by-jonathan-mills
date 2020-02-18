@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Pluralsight Course - RESTful web services with Node.js and Express by Jonathan Mills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bavulapati/pluralsight-restful-web-services-by-jonathan-mills.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bavulapati/pluralsight-restful-web-services-by-jonathan-mills/issues"
+  },
+  "homepage": "https://github.com/bavulapati/pluralsight-restful-web-services-by-jonathan-mills#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
