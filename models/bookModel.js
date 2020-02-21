@@ -1,6 +1,6 @@
-const { MongoClient } = require('mongodb');
+const mongoose = require('mongoose');
 
-const { Schema } = MongoClient;
+const { Schema } = mongoose;
 
 const bookModel = new Schema({
   title: { type: String },
@@ -9,4 +9,4 @@ const bookModel = new Schema({
   read: { type: Boolean, default: false }
 });
 
-module.exports = MongoClient.model('Book', bookModel);
+module.exports = mongoose.model('Book', bookModel);
